@@ -15,7 +15,13 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
-```
+import math
+
+number = abs (int (input("Введите число : "))) // 100
+
+if number >= 1 and number < 10:
+    print ("Число трехзначное")
+else:
+    print ("Число не трехзначное")
 
 ---
