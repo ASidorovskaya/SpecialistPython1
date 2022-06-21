@@ -14,8 +14,11 @@
 
 ### Решение задачи
 
-```python
-# TODO: you code here...
-```
+number = int (input("Enter number :"))
+
+if number // 100 > 1:
+    print ("Number consists of more than 3 numbers")
+else:
+    print ("Number consist of less than 3 numbers")
 
 ---
