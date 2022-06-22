@@ -28,8 +28,17 @@ n = 5
 ### Решение задачи
 
 ```python
-# TODO: you code here...
-```
+number = int(input("Number between 1 and 9: "))
+counter1 = 1
+counter2 = 1
+
+while counter1 <= number:
+    while counter2 <= number:
+        print (counter1 * counter2, end= " ")
+        counter2 +=1
+    counter1 +=1;
+    counter2 = 1;
+    print (end = "\n")```
 
 ---
 
