@@ -18,7 +18,13 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+number = int (input ("Enter number: "))
+
+if number % 100 == number // 100:
+    print ("Number is symmetric")
+else:
+    print ("Number is asymmetric")
+
 ```
 
 ---
