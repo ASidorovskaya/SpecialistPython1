@@ -36,6 +36,12 @@ n = 12
 ### Решение задачи
 
 ```python
-# TODO: you code here...
-```
+cost = int (input ("Enter cost "))
+n = int (input ("Enter number of items "))
+
+counter = 0
+
+while counter < n:
+    print(counter+1, cost * (counter +1))
+    counter +=1
 
