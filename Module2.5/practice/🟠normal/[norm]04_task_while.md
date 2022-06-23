@@ -22,7 +22,18 @@
 ### Решение задачи
 
 ```python
-# TODO: you code here...
+number = int (input ("Enter number of steps between 1 and 9: "))
+
+counter1 = 1
+
+while counter1 <= number:
+    counter2 = 1;
+    string = "";
+    while counter2<= counter1:
+        string = string + str (counter2);
+        counter2 +=1;
+    counter1 +=1;
+    print(string);
 ```
 
 ---
