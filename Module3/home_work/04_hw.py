@@ -5,3 +5,12 @@
 # Пример:
 # Дано: [2, -5, 8, 9, -25, 25, 4]
 # Результат: [3, 5, 2]
+
+source_list = [-4, 4, 36, -18, 20, 49, -81, 225]
+final_list =[]
+
+for number in source_list:
+    if number > 0 and (((number ** 0.5) *10) % 10) ==0:
+        final_list.append (number ** 0.5)
+
+print (final_list)
