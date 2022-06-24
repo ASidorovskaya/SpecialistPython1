@@ -5,4 +5,16 @@
 import random
 numbers = []
 # print(random.randint(10, 20))  # раскомментируйте, чтобы посмотреть работу функции randint
-# TODO: your code here
+
+import random
+
+n = int (input ("Enter amount of numbers in the list: "))
+
+any_list = []
+i = 0
+
+while i < n:
+    number = random.randint(-100,100)
+    any_list.append(number)
+    i +=1
+
