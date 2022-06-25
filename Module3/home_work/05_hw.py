@@ -3,4 +3,14 @@
 
 names = ["Иван", "Ирина", "Вячеслав", "Василий", "Петр"]
 
-# TODO: your code here
+names = ["Иван", "Ирина", "Петр"]
+
+max_len = 0
+max_name = ""
+
+for name in names:
+    if len (name) > max_len:
+        max_len = len (name)
+        max_name = name
+
+print (f"Max length of the name in the list is {max_len}\n Max name = {max_name}")
